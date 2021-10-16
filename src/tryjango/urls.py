@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('counter_words.urls'))
+    # path('counter/', include('counter_words.urls'))
 ]
